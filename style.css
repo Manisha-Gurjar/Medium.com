@@ -1,0 +1,302 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    width: 100%;
+    background-color: #FFC017;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 120px;
+    border-bottom: 1px solid black;
+    position: fixed;
+    top: 0;
+}
+@media (max-width:768px) {
+    nav{
+        padding: 0 20px;
+    }
+}
+nav img {
+    height: 50px;
+}
+
+nav .links {
+    display: flex;
+    align-items: center;
+    width: 40%;
+}
+
+nav .links ul {
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+}
+@media (max-width:768px) {
+    nav .links ul{
+        display: none;
+      
+
+    }
+}
+nav li {
+    list-style: none;
+    font-size: 14px;
+}
+nav button {
+    background-color: black;
+    width: 130px;
+    height: 40px;
+    color: white;
+    border-radius: 80px;
+    margin-left: 50px;
+}
+
+
+/* hero-section */
+.hero-section .hero-1{
+    height: 80vh;
+    background-color: #FFC017;
+    border-bottom: 1px solid black;
+}
+.hero-section .text-section{
+    padding: 50px 120px;
+}
+.hero-section .text-section h1{
+    font-size: 100px;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+@media (max-width:768px) {
+    .hero-section .text-section h1{
+      font-size: 70px;
+
+    }
+}
+.hero-section .text-section p{
+    font-size: 22px;
+    font-weight: 500;
+    color: black;
+}
+.text-section .btn{
+    width: 220px;
+    background-color: black;
+    color: white;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 100px;
+    margin-top: 30px;
+}
+
+/* section-1 */
+.section-1 .trending{
+    display: flex;
+    align-items: center;
+    margin-left: 120px;
+    margin-top: 40px;
+    
+}
+
+.section-1 .trending i{
+    font-size: 24px;
+}
+.section-1 .trending h4{
+    font-size: 16px;
+    margin-top: 7px;
+    margin-left: 6px;
+}
+.section-1 .sec-1{
+    height: 50vh;
+    padding: 50px 120px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    row-gap: 20px;
+  }
+
+  @media (max-width:768px) {
+    .section-1 .sec-1{
+     height: auto;
+     margin-top: 30px;
+
+    }
+}
+.section-1 .box-1{
+    display: flex;
+
+}
+.section-1 .number h3{
+    font-size: 30px;
+    font-weight: 700;
+    color: rgb(199, 198, 198);
+}
+.section-1 .text{
+    margin-left: 20px;
+
+}
+.section-1 .sec-1 .image{
+    display: flex;
+    margin-bottom: 10px;
+}
+.section-1 .sec-1 .img{
+    height: 15px;
+    border-radius: 4px;
+}
+.section-1 .sec-1 .text h4{
+    font-size: 12px;
+    color: gray;
+    font-weight: 400;
+    margin-left: 8px;
+}
+.section-1 .sec-1 .text h3{
+    font-size: 16px;
+    font-weight: 800;
+    margin-bottom: 14px;
+}
+
+/* last-section */
+.last-section {
+    padding-top: 150px;
+    padding-bottom: 70px;
+    padding-left: 120px;
+    display: flex;
+   
+}
+
+@media (max-width: 768px){
+.last-section {
+    margin-left: 30px;
+    padding-top: 20px;
+  
+}
+}
+.last-section .sec-2{
+    width: 55%;
+    margin-right: 70px;
+}
+.last-section .sec-3{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 70px;
+}
+.last-section .text-1{
+    width: 60%;
+}
+.last-section .text-1 .sec-4{
+    display: flex;
+    margin-bottom: 15px;
+
+}
+.last-section .text-1 img{
+    height: 20px;
+    border-radius: 3px;
+}
+.last-section .text-1 .sec-4 h4{
+    font-size: 13px;
+    font-weight: 400;
+    margin-left: 10px;
+
+}
+.last-section .text-1 h3{
+    font-size: 25px;
+    font-weight: 800;
+}
+.last-section .sec-2 .text-1 p{
+    font-size: 14px;
+    color: rgb(136, 135, 135);
+}
+.last-section .text-1 .sec-5{
+    display: flex;
+    width: 95%;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+}
+.last-section .text-1 .sec-5 h5{
+    font-size: 13px;
+    font-weight: 400;
+    color: rgb(136, 135, 135);
+
+}
+.last-section .text-1 .sec-5 .btn-2{
+    width: 90px;
+    color: rgb(199, 198, 198);
+    color: rgb(136, 135, 135);
+    height: 20px;
+    border: none;
+    margin-right: 80px;
+    font-size: 12px;
+    border-radius: 100px;
+}
+.last-section .text-1.sec-5 i{
+    font-size: 20px;
+    margin-right: 10px;
+}
+.last-section .image-1 img{
+    height: 140px;
+
+}
+
+/* last-links */
+.last-section .last-links{
+    width: 50%;
+    /* position: sticky; */
+    top: 120px;
+    background-color: #fff;
+    margin-left: 60px;
+}
+ @media (max-width:768px) {
+    .last-section .last-links{
+   
+       
+           
+   margin-top: 0px;
+            display: flex;
+            align-items: flex-end;
+            justify-content: space-between;
+            border-bottom: 1px solid lightgrey;
+        }
+    } 
+    
+
+.last-section .last-links h3{
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.last-section .last-links .btn-1{
+    width: 80%;
+    border-bottom: 1px solid rgb(179, 178, 178);
+    padding-bottom: 25px;
+}
+
+
+
+
+.last-section .last-links .btn-1 button{
+    width: fit-content;
+    border: 1px solid rgb(179, 178, 178);
+    background: none;
+    padding: 8px 20px;
+    margin-bottom: 10px;
+    margin-right: 7px;
+    font-size: 13px;
+    color: rgb(136, 135, 135);
+}
+.last-section .last-links .primary-links{
+    display: flex;
+    width: 75%;
+    flex-wrap: wrap;
+    margin-top: 20px;
+
+}
+.last-section .last-links .primary-links li{
+    list-style: none;
+    margin-right: 20px;
+    font-size: 13px;
+    margin-bottom: 15px;
+
+}
